@@ -189,7 +189,7 @@ const ChatInterface = ({ onInitialMessage, tripDetails }) => {
         numberOfDays: tripDetails.numberOfDays
       });
 
-      const response = await fetch('/api/itinerary', {
+      const response = await fetch('api/api/itinerary', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
